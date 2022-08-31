@@ -60,7 +60,7 @@ public class ExampleTestTest{
 
     }
 
-    @ParameterizedTest
+   /* @ParameterizedTest
     @DisplayName("Should not create shapes with invalid numbers of side")
     @ValueSource(ints = {0,1,2,Integer.MAX_VALUE})
     public void shouldNotCreateShapesWithInvalidNumbersofSide(int expectedNumberOfSides){
@@ -70,5 +70,5 @@ public class ExampleTestTest{
         //assertEquals(expectedNumberOfSides, shape.numberOfSides(), "Valid");
         //fail("Not Implemented");
 
-    }
+    }*/
 }
